@@ -1,4 +1,4 @@
-package com.zaelani.mynotesapp;
+package com.zaelani.consumerapp;
 
 import android.content.Context;
 import android.content.Intent;
@@ -13,10 +13,10 @@ import android.widget.ProgressBar;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
-import com.zaelani.mynotesapp.adapter.NoteAdapater;
-import com.zaelani.mynotesapp.db.DatabaseContract;
-import com.zaelani.mynotesapp.entity.Note;
-import com.zaelani.mynotesapp.helper.MappingHelper;
+import com.zaelani.consumerapp.adapter.NoteAdapater;
+import com.zaelani.consumerapp.db.DatabaseContract;
+import com.zaelani.consumerapp.entity.Note;
+import com.zaelani.consumerapp.helper.MappingHelper;
 
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;

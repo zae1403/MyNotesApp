@@ -1,4 +1,4 @@
-package com.zaelani.mynotesapp.db;
+package com.zaelani.consumerapp.db;
 
 import android.net.Uri;
 import android.provider.BaseColumns;

@@ -1,9 +1,9 @@
-package com.zaelani.mynotesapp.helper;
+package com.zaelani.consumerapp.helper;
 
 import android.database.Cursor;
 
-import com.zaelani.mynotesapp.db.DatabaseContract;
-import com.zaelani.mynotesapp.entity.Note;
+import com.zaelani.consumerapp.db.DatabaseContract;
+import com.zaelani.consumerapp.entity.Note;
 
 import java.util.ArrayList;
 

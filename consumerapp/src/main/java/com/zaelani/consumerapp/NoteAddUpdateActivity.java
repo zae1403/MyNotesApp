@@ -1,4 +1,4 @@
-package com.zaelani.mynotesapp;
+package com.zaelani.consumerapp;
 
 import android.content.ContentValues;
 import android.content.DialogInterface;
@@ -13,8 +13,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.zaelani.mynotesapp.entity.Note;
-import com.zaelani.mynotesapp.helper.MappingHelper;
+import com.zaelani.consumerapp.entity.Note;
+import com.zaelani.consumerapp.helper.MappingHelper;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -25,10 +25,10 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
-import static com.zaelani.mynotesapp.db.DatabaseContract.NoteColumns.CONTENT_URI;
-import static com.zaelani.mynotesapp.db.DatabaseContract.NoteColumns.DATE;
-import static com.zaelani.mynotesapp.db.DatabaseContract.NoteColumns.DESCRIPTION;
-import static com.zaelani.mynotesapp.db.DatabaseContract.NoteColumns.TITLE;
+import static com.zaelani.consumerapp.db.DatabaseContract.NoteColumns.CONTENT_URI;
+import static com.zaelani.consumerapp.db.DatabaseContract.NoteColumns.DATE;
+import static com.zaelani.consumerapp.db.DatabaseContract.NoteColumns.DESCRIPTION;
+import static com.zaelani.consumerapp.db.DatabaseContract.NoteColumns.TITLE;
 
 public class NoteAddUpdateActivity extends AppCompatActivity implements View.OnClickListener {
 
